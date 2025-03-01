@@ -16,7 +16,7 @@ export const loginValidator = [
 export const companyValidator = [
   body("name", "El nombre de la empresa no puede estar vacío").notEmpty(),
 
-  body("impact", "El impacto debe ser un número").notEmpty(),
+  body("impact", "El impacto no puede estar vacío").notEmpty(),
 
   body("trajectory", "La trayectoria debe ser un número").isNumeric(),
 

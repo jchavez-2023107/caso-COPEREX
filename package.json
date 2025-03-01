@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Análisis del caso COPEREX",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "node --watch index.js"
   },
   "keywords": [
     "COPEREX",

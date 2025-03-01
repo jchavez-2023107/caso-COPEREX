@@ -184,6 +184,11 @@
 									"key": "category",
 									"value": "Tecnología",
 									"type": "text"
+								},
+								{
+									"key": "additionalInfo",
+									"value": "Prestigiosa Empresa",
+									"type": "text"
 								}
 							]
 						},
